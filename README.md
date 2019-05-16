@@ -22,11 +22,11 @@
     - minifikace generovaných HTML,
 	- extra komprese grafických formátů (především PNG, JPG, SVG),
 	- cachování (WordPress plugin „WP Super Cache“),
-	- serverová g-zip komprese a cachování (CSS, JS, HTML/PHP) dle možností serveru,
+	- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) dle možností nastavení serveru,
 	- využití CDN pro načítání standardních skriptů/knihoven (typicky jQuery),
 	- omezení počtu pluginů, které zatěžují běh stránky.
 - SEO
-	- On-page faktory – validita stránek, sémantický a čistý kód.
+	- On-page faktory – validní, sémantický a čistý kód.
 	- Off-page faktory
 		- Indexace
 			- Podpora indexace podstrčením nových stránek vyhledávači Google prostřednictvím sitemap.xml a Google Search Console.
