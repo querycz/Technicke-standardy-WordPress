@@ -1,6 +1,6 @@
 # Technické standardy WordPress
 
-- HTML5, CSS3/SASS, JavaScript/jQuery, PHP/MySQL.
+- HTML5, CSS3/SASS, JavaScript/jQuery/ES6, PHP/MySQL.
 - Gulp.js pro automatizaci vývoje.
 - Node.js a NPM pro automatizaci vývoje a správu front-end komponent.
 - Responsivní layout – podpora širokých rozlišení, standardních rozlišení, rozlišení mobilních zařízení – tabletů a mobilních telefonů metodou „mobile first“.
@@ -13,14 +13,14 @@
 	- Safari (jádro WebKit, macOS).
 - Uživatelská přístupnost a použitelnost:
 	- Ctění standardů uživatelské přístupnosti (www.pravidla-pristupnosti.cz) 
-- Redakční systém/CMS WordPress – aktuální stabilní revize + příslušné pluginy.
-- SSL/HTTPS – dle možností serveru. Doporučeno minimálně použití self-signed certifikátu (typicky Let’s Encrypt).
+- Redakční systém/CMS WordPress – aktuální stabilní revize + ověřené příslušné pluginy.
+- SSL/HTTPS – dle možností serveru (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
 - HTTP/2 – dle možností serveru.
 - Důraz na rychlý běh stránek:
 	- Minifikace a kombinace JavaScript skriptů a CSS/SASS souborů pro snížení datové náročnosti a počtu požadavků na server,
     - critical CSS,
     - minifikace generovaných HTML,
-	- extra komprese grafických formátů (především PNG, JPG, GIF, SVG),
+	- extra komprese grafických formátů (především PNG, JPG, SVG),
 	- cachování (WordPress plugin „WP Super Cache“),
 	- serverová g-zip komprese a cachování (CSS, JS, HTML/PHP) dle možností serveru,
 	- využití CDN pro načítání standardních skriptů/knihoven (typicky jQuery),
