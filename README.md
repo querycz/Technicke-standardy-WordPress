@@ -14,15 +14,17 @@
 - Uživatelská přístupnost a použitelnost:
 	- Ctění standardů uživatelské přístupnosti (www.pravidla-pristupnosti.cz) 
 - Redakční systém/CMS WordPress – aktuální stabilní revize + ověřené příslušné pluginy.
-- SSL/HTTPS – dle možností serveru (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
-- HTTP/2 – dle možností serveru.
+- SSL/HTTPS – dle možností produkčního serveru (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
+- HTTP/2 – dle možností produkčního serveru.
 - Důraz na rychlý běh stránek:
-	- Minifikace a kombinace JavaScript skriptů a CSS/SASS souborů pro snížení datové náročnosti a počtu požadavků na server,
+	- Minifikace JavaScript skriptů a CSS souborů pro snížení datové náročnosti,
+	- kombinace JavaScript skriptů,
+	- kombinace CSS stylů do jednoho souboru nebo rozdělení CSS a načítání dle komponent (pouze při využití HTTP/2),
     - critical CSS,
     - minifikace generovaných HTML,
 	- extra komprese grafických formátů (především PNG, JPG, SVG),
 	- cachování (WordPress plugin „WP Super Cache“),
-	- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) dle možností nastavení serveru,
+	- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) dle možností produkčního serveru,
 	- využití CDN pro načítání standardních skriptů/knihoven (typicky jQuery),
 	- omezení počtu pluginů, které zatěžují běh stránky.
 - SEO
