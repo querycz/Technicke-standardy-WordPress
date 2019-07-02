@@ -16,7 +16,7 @@
 - Redakční systém/CMS WordPress – aktuální stabilní revize + ověřené příslušné pluginy.
 - SSL/HTTPS – v případě hostování na serverech Query, v opačném případě dle možností produkčního serveru (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
 - HTTP/2 – v případě hostování na serverech Query, v opačném případě dle možností produkčního serveru.
-- Důraz na rychlý běh stránek:
+- Důraz na rychlé načítání:
 	- Minifikace JavaScript skriptů a CSS souborů pro snížení datové náročnosti,
 	- kombinace JavaScript skriptů,
 	- kombinace CSS stylů do jednoho souboru nebo rozdělení CSS a načítání dle komponent (pouze při využití HTTP/2),
