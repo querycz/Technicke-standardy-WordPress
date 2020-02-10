@@ -1,4 +1,4 @@
-# Technické standardy WordPress
+# Technické standardy WordPress 💻
 
 - HTML5, CSS3/SASS, JavaScript/jQuery/ES6, PHP/MySQL.
 - Gulp.js pro automatizaci vývoje.
