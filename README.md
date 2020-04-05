@@ -31,6 +31,6 @@
 	- On-page faktory – validní, sémantický a čistý kód.
 	- Off-page faktory
 		- Indexace
-			- Podpora indexace podstrčením nových stránek vyhledávači Google prostřednictvím sitemap.xml a Google Search Console.
-			- Podpora indexace podstrčením nových stránek vyhledávačům Google, Seznam, Bing.
+			- Podpora indexace podstrčením stránek vyhledávači Google prostřednictvím sitemap.xml a Google Search Console.
+			- Podpora indexace podstrčením stránek vyhledávači Seznam.cz.
 - Analytika návštěvnosti – založení Google Analytics profilu, případně vložení vlastního kódu Objednatele.
