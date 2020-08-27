@@ -1,9 +1,8 @@
 # Technické standardy WordPress 💻
 
 - HTML5, CSS3/SASS, JavaScript/jQuery/ES6, PHP/MySQL.
-- Gulp.js pro automatizaci vývoje.
-- Node.js a NPM pro automatizaci vývoje a správu front-end komponent.
-- Psaní CSS dle metodiky ITCSS pro udržitelnou a škálovatelnou strukturu stylopisu.
+- Webpack, NPM a Node.js pro automatizaci vývoje a správu front-end komponent.
+- CSS dle metodiky ITCSS pro udržitelnou a škálovatelnou strukturu stylopisu.
 - Responsivní layout – podpora širokých rozlišení, standardních rozlišení, rozlišení mobilních zařízení – tabletů a mobilních telefonů metodou „mobile first“.
 - Grafické prvky optimalizované pro zařízení s vysokým rozlišením displeje („Retina“).
 - Podpora internetových prohlížečů:
