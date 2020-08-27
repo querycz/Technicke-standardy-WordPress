@@ -7,7 +7,6 @@
 - Responsivní layout – podpora širokých rozlišení, standardních rozlišení, rozlišení mobilních zařízení – tabletů a mobilních telefonů metodou „mobile first“.
 - Grafické prvky optimalizované pro zařízení s vysokým rozlišením displeje („Retina“).
 - Podpora internetových prohlížečů:
-	- Internet Explorer 11 (jádro Trident, Windows) metodou „graceful degradation“,
 	- Edge (jádro Edge),
 	- Firefox (jádro Gecko, Windows/macOS),
 	- Chrome/Opera 15+ (jádro Blink, Windows/macOS),
