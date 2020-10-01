@@ -20,13 +20,13 @@
 - minifikace generovaného HTML,
 - extra komprese grafických formátů (především PNG, JPG, SVG),
 - cachování (WordPress plugin „WP Super Cache“),
-- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) v případě hostování na serverech Query, v opačném případě dle možností produkčního serveru,
+- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí,
 - využití CDN pro načítání standardních skriptů/knihoven (typicky jQuery),
 - omezení počtu pluginů, které zatěžují běh stránky.
 
 ## Server
-- SSL/HTTPS – v případě hostování na serverech Query, v opačném případě dle možností produkčního serveru (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
-- HTTP/2 – v případě hostování na serverech Query, v opačném případě dle možností produkčního serveru.
+- SSL/HTTPS – v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
+- HTTP/2 – v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí.
 
 ## Přístupnost a použitelnost
 - Ctění standardů uživatelské přístupnosti (www.pravidla-pristupnosti.cz).
