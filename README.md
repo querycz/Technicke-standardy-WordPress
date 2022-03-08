@@ -3,7 +3,7 @@
 ## Dev-stack
 - HTML5, CSS3/SASS, JavaScript/jQuery/ES6, PHP/MySQL.
 - Webpack, NPM a Node.js pro automatizaci vývoje a správu front-end komponent.
-- CSS dle metodiky ITCSS pro udržitelnou a škálovatelnou strukturu stylopisu.
+- CSS framework Tailwind CSS.
 - Responsivní layout – podpora širokých rozlišení, standardních rozlišení, rozlišení mobilních zařízení – tabletů a mobilních telefonů metodou „mobile first“.
 - Grafické prvky optimalizované pro zařízení s vysokým rozlišením displeje („Retina“).
 - Podpora internetových prohlížečů:
@@ -15,8 +15,8 @@
 
 ## Rychlost
 - Minifikace JavaScript skriptů a CSS souborů pro snížení datové náročnosti,
-- rozdělení JavaScript skriptů dle stránek a/nebo komponent a načítání dle stránek/komponent (především při využití HTTP/2),
-- rozdělení CSS stylů dle komponent a načítání dle komponent (především při využití HTTP/2),
+- rozdělení JavaScript skriptů dle stránek a/nebo komponent a načítání dle stránek/komponent,
+- utilitární globální CSS styl frameworku Tailwind CSS,
 - minifikace generovaného HTML,
 - extra komprese grafických formátů (především PNG, JPG, SVG),
 - cachování (WordPress plugin „WP Super Cache“),
