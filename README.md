@@ -21,8 +21,7 @@
 - extra komprese grafických formátů (především PNG, JPG, SVG),
 - cachování (WordPress plugin „WP Super Cache“),
 - serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí,
-- využití CDN pro načítání standardních skriptů/knihoven (typicky jQuery),
-- omezení počtu pluginů, které zatěžují běh stránky.
+- důraz na minimální počet pluginů 3. stran, které zatěžují běh stránky.
 
 ## Server
 - SSL/HTTPS – v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
