@@ -31,7 +31,9 @@
 - Ctění standardů uživatelské přístupnosti (www.pravidla-pristupnosti.cz).
 
 ## SEO
-- On-page faktory – validní, sémantický a čistý kód.
+- On-page faktory
+	- Sémantický a čistý kód.
+	- Rychlost.
 - Off-page faktory
 	- Indexace
 		- Podpora indexace podstrčením stránek vyhledávači Google prostřednictvím sitemap.xml a Google Search Console.
