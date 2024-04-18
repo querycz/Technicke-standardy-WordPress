@@ -1,7 +1,7 @@
 # Technické standardy WordPress 💻
 
 ## Dev-stack
-- HTML5, CSS3/SASS, JavaScript/jQuery/ES6, PHP/MySQL.
+- HTML5, CSS3, JavaScript/jQuery/ES6, PHP/MySQL.
 - Webpack, NPM a Node.js pro automatizaci vývoje a správu front-end komponent.
 - CSS framework Tailwind CSS.
 - Responsivní layout – podpora širokých rozlišení, standardních rozlišení, rozlišení mobilních zařízení – tabletů a mobilních telefonů metodou „mobile first“.
