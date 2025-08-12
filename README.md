@@ -1,4 +1,4 @@
-# Technické standardy WordPress 💻
+# 💻 Technické standardy WordPress
 
 ## Dev-stack
 - HTML5, CSS3, JavaScript/jQuery/ES6, PHP/MySQL.
