@@ -42,3 +42,4 @@
 ## Analytika návštěvnosti 
 - Založení Google Analytics profilu, případně vložení vlastního kódu Objednatele.
 - Propojení Google Analytics a Google Search Console.
+- Volitelně implementace Plausible analytiky
