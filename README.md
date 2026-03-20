@@ -9,7 +9,6 @@
 - Podpora internetových prohlížečů:
 	- Edge (jádro Edge),
 	- Firefox (jádro Gecko, Windows/macOS),
-	- Chrome/Opera 15+ (jádro Blink, Windows/macOS),
 	- Safari (jádro WebKit, macOS).
 - Redakční systém/CMS WordPress – aktuální stabilní revize + příslušné ověřené pluginy.
 
@@ -18,10 +17,10 @@
 - rozdělení JavaScript skriptů dle stránek a/nebo komponent a načítání dle stránek/komponent,
 - utilitární globální CSS styl frameworku Tailwind CSS,
 - minifikace generovaného HTML,
-- extra komprese grafických formátů (především PNG, JPG, SVG),
+- extra komprese grafických formátů a preference WebP formátu,
 - cachování (WordPress plugin „WP Super Cache“),
-- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP) v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí,
-- důraz na minimální počet pluginů 3. stran, které zatěžují běh stránky.
+- serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP, obrázky) v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí,
+- důraz na minimální počet pluginů třetích stran, které zatěžují běh stránky.
 
 ## Server
 - SSL/HTTPS – v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí (doporučeno minimálně použití self-signed certifikátu, typicky Let’s Encrypt.
@@ -40,6 +39,6 @@
 		- Podpora indexace podstrčením stránek vyhledávači Seznam.cz.
 
 ## Analytika návštěvnosti 
-- Založení Google Analytics profilu, případně vložení vlastního kódu Objednatele.
-- Propojení Google Analytics a Google Search Console.
-- Volitelně implementace Plausible analytiky
+- Implementace cookie-less analytiky Umami hostované na serverech Query.
+- Volitelně založení Google Analytics profilu, případně vložení vlastního kódu Objednatele.
+    - Propojení Google Analytics a Google Search Console.
