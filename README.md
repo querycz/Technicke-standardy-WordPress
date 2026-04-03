@@ -18,7 +18,7 @@
 - utilitární globální CSS styl frameworku Tailwind CSS,
 - minifikace generovaného HTML,
 - extra komprese grafických formátů a preference WebP formátu,
-- cachování (WordPress plugin „WP Super Cache“),
+- cachování (WordPress plugin „WP Super Cache“), SQLite Object Cache, Redis,
 - serverová g-zip komprese a Cache-Control (CSS, JS, HTML/PHP, obrázky) v případě hostování na serverech Query, v opačném případě dle možností produkčního prostředí,
 - důraz na minimální počet pluginů třetích stran, které zatěžují běh stránky.
 
